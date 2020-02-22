@@ -6,8 +6,8 @@ data=pd.read_csv("kc_train.csv")
 cols=[i for i in data.columns if i!='销售价格']
 x=data[cols]
 y=data['销售价格']
-print(x)
-print(y)
+# print(x)
+# print(y)
 
 t=data
 
